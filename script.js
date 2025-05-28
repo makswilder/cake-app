@@ -45,7 +45,6 @@ navigator.mediaDevices.getUserMedia({ audio: true }).then(stream => {
     const avgVolume = dataArray.reduce((a, b) => a + b, 0) / dataArray.length;
 
     if (avgVolume > 60) {
-      // Blow detected
       document.querySelectorAll(".flame").forEach(f => f.remove());
     }
 

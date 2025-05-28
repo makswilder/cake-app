@@ -15,7 +15,7 @@ body {
   position: relative;
   width: 300px;
   height: 200px;
-  margin: 5rem auto 2rem auto; /* Moved lower */
+  margin: 5rem auto 2rem auto; 
 }
 
 .layer {
