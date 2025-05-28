@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #fcece1;
+  color: #111;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.cake {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 5rem auto 2rem auto; /* Moved lower */
+}
+
+.layer {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  border-radius: 50% / 12%;
+  margin-bottom: -15px;
+}
+
+.top {
+  background-color: #900;
+  z-index: 3;
+}
+
+.middle {
+  background-color: #ffeecc;
+  z-index: 2;
+}
+
+.bottom {
+  background-color: #d2691e;
+  z-index: 1;
+}
+
+.candle {
+  position: absolute;
+  width: 6px;
+  height: 40px;
+  background: gold;
+  bottom: 55px;
+  z-index: 4;
+}
+
+.flame {
+  position: absolute;
+  top: -10px;
+  left: -2px;
+  width: 10px;
+  height: 10px;
+  background: orange;
+  border-radius: 50%;
+  box-shadow: 0 0 5px 2px orange;
+}
